@@ -8,7 +8,7 @@ array, otherwise return false.
 """
 class Solution:
     
-    def hasDuplicate(self, nums: List[int]) -> bool:
+    def hasDuplicate(self, nums: list[int]) -> bool:
         
         seen_set = set()
         
